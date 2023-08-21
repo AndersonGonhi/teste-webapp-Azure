@@ -23,7 +23,7 @@ function App() {
         </button>
         <div>{count}</div>
         <button onClick={() => setCount((count) => count - 10)}>
-          diminui - outra forma
+          diminui
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
