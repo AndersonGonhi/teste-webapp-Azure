@@ -18,8 +18,12 @@ function App() {
       </div>
       <h1>Anderson + Lucas</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+        <button onClick={() => setCount((count) => count + 10)}>
+          aumenta +
+        </button>
+        <div>{count}</div>
+        <button onClick={() => setCount((count) => count - 10)}>
+          diminui - outra forma
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
