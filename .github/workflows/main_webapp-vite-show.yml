@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'Webapp-vite-show'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EFECFD055A494F74BB5641A1ECAC0390 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5A9D901E785E45F89EBB21143EE4B82B }}
           package: .
